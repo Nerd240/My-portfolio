@@ -41,7 +41,8 @@ export class AuthService {
 
   static async ensureDefaultAdmin(): Promise<void> {
     const adminEmail = (process.env.ADMIN_EMAIL || 'aashrayashrestha24@gmail.com').toLowerCase().trim();
-    const defaultPassword = process.env.ADMIN_PASSWORD || 'AshSecure2026!';
+    const defaultPassword = process.env.ADMIN_PASSWORD;
+    if (!process.env.ADMIN_PASSWORD) throw new Error('ADMIN_PASSWORD is not set');
 
     if (isDbConnected()) {
       const existing = await UserModel.findOne({ email: adminEmail });

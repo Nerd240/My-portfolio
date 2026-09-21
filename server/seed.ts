@@ -180,7 +180,8 @@ export async function runSeed(): Promise<void> {
   const connected = await connectToDatabase();
 
   const adminEmail = (process.env.ADMIN_EMAIL || 'aashrayashrestha24@gmail.com').toLowerCase().trim();
-  const adminPass = process.env.ADMIN_PASSWORD || 'AshSecure2026!';
+  const adminPass = process.env.ADMIN_PASSWORD;
+  if (!process.env.ADMIN_PASSWORD) throw new Error('ADMIN_PASSWORD is not set');
 
   if (connected && isDbConnected()) {
     console.log('[Seed] Seeding MongoDB database...');

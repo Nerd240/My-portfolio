@@ -109,9 +109,6 @@ export const AdminLogin: React.FC<AdminLoginProps> = ({ onSuccess, onBack }) => 
               />
               <Lock className="w-4 h-4 text-neutral-500 absolute left-3 top-3" />
             </div>
-            <p className="mt-1 text-[11px] text-neutral-500 font-mono">
-              Initial lab password configured via ADMIN_PASSWORD environment variable or defaults to <code className="text-sky-400">AshSecure2026!</code>
-            </p>
           </div>
 
           <button
