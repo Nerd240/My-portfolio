@@ -5,7 +5,7 @@ import path from 'path';
 let isConnected = false;
 let mongoDisabledOrFailed = false;
 
-const DEFAULT_MONGODB_URI = 'mongodb+srv://aashrayashrestha24_db_user:JrEXdt2uz1wXS3VW@cluster0.yjpwrfc.mongodb.net/?appName=Cluster0';
+const uri = process.env.MONGODB_URI;
 
 export async function connectToDatabase(): Promise<boolean> {
   if (isConnected) {
