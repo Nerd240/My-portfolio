@@ -22,7 +22,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContactClick, onPr
           Building Practical Foundations in Systems & Security
         </h1>
         <p className="text-base sm:text-lg text-neutral-300 max-w-3xl leading-relaxed font-sans">
-          I am a 1st-semester Computer Science and Information Technology (CSIT) student at RJU. Rather than waiting for senior year or making exaggerated claims of seniority, I focus on hands-on consistency: writing C++ and Python daily, running Linux as my main operating system, and dissecting how servers and networks actually work.
+          I am a 1st-semester Computer Science and Information Technology (CSIT) student at Caspian. Rather than waiting for senior year or making exaggerated claims of seniority, I focus on hands-on consistency: writing C++ and Python daily, running Linux as my main operating system, and dissecting how servers and networks actually work.
         </p>
       </div>
 
@@ -35,7 +35,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContactClick, onPr
               <span className="text-sky-400">01.</span> Academic Grounding & Current Stage
             </h2>
             <p>
-              My formal computer science journey started at <strong>Caspian Valley College</strong> with a strong foundation in physics and mathematics, which prepared me to join the <strong>B.Sc. CSIT program at RJU</strong>. In our 1st semester, we focus heavily on fundamental computing theories, procedural programming in C, and digital logic.
+              My formal computer science journey started at <strong>Caspian Valley College</strong> with a strong foundation in physics and mathematics, which prepared me to join the <strong>B.Sc. CSIT program at Caspian</strong>. In our 1st semester, we focus heavily on fundamental computing theories, procedural programming in C, and digital logic.
             </p>
             <p>
               I treat my academic syllabus as the starting baseline and supplement it with personal experiments in systems programming, Linux administration, and network analysis.
@@ -100,7 +100,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onContactClick, onPr
               </div>
               <div>
                 <span className="text-neutral-500 block">Education:</span>
-                <span className="text-neutral-100 font-medium">RJU — CSIT, 1st Semester</span>
+                <span className="text-neutral-100 font-medium">Caspian(RJU Affiliated) — CSIT, 1st Semester</span>
               </div>
               <div>
                 <span className="text-neutral-500 block">Prior School:</span>

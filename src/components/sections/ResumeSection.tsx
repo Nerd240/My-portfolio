@@ -19,7 +19,7 @@ LinkedIn: ${siteConfig.linkedin}
 
 EDUCATION:
 - B.Sc. CSIT (Computer Science & Information Technology), 1st Semester
-  RJU (Tribhuvan Affiliated)
+  Caspian(RJU Affiliated)
   Core computing foundations, C/C++ programming principles, discrete structures.
 
 - +2 Science (Physics & Mathematics stream)
@@ -124,7 +124,7 @@ SECONDARY INTERESTS:
           <div className="space-y-3 text-sm">
             <div>
               <div className="flex flex-wrap justify-between font-semibold text-neutral-100">
-                <span>RJU (Tribhuvan Affiliated)</span>
+                <span>Caspian(RJU Affiliated)</span>
                 <span className="text-xs font-mono text-neutral-400">2026 – Present</span>
               </div>
               <div className="text-xs text-sky-300 font-mono">B.Sc. Computer Science & Information Technology (CSIT) — 1st Semester</div>
