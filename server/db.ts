@@ -12,7 +12,7 @@ export async function connectToDatabase(): Promise<boolean> {
     return true;
   }
 
-  const uri = process.env.MONGODB_URI || DEFAULT_MONGODB_URI;
+  const uri = process.env.MONGODB_URI;
   if (!uri) {
     console.log('[Database] No MONGODB_URI provided in environment. Utilizing resilient local document store.');
     mongoDisabledOrFailed = true;
